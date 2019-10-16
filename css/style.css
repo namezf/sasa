@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,ol,li,dl,dt,dd{ padding:0; margin:0;}
+ul,ol{ list-style:none;}
+input{ outline:none;}
+img{ display:block;}
+
+body{ font-size:12px;color:#3e3e3e; font-family:"微软雅黑"}
+body,html{height:100%;}
+
+a{ text-decoration:none; color:#909090;}
+a:hover{ text-decoration:underline; color:#f60;}
+
+.w{ width:1200px; margin:0 auto;}
+.l{ float:left;}
+.r{ float:right;}
+
+/* #nav{width:100%;height:70px;line-height:70px; background:#c8251e;}
+#nav img{margin-left:100px;margin-top:10px;}
+#nav ul{height:70px;margin-left:105px;}
+#nav ul li{height:70px;; border-right:1px solid #d2625e;padding:0 32px; color:#fff;}
+#nav ul li a{color:#fff; text-decoration:none;}
+#nav ul li.first{ border-left:1px solid #d2625e;}
+#nav ul li.current{ background:#414141;}
+#nav ul li.last h3{ padding-right:0;border-right:none; }
+#nav ul li.last h3 span{margin-right:14px; font-size:25px;}
+#nav ul li.last{border-right:none;}
+#nav ul li:hover{ background:#414141;}
+
+#banner img{height:500px;width:100%;}
+
+#biao{width:47px; height:257px; position:fixed;top:250px;right:0; z-index:1;}
+#biao ul li{height:39px; background:#4c4c4c;padding-top:10px;margin-bottom:3px; text-align:center;}
+#biao ul li span{ font-size:26px; color:#fff;}
+
+#Previous{width:100%;height:570px; }
+#Previous .one h1{ font-size:32px; color:#919191; font-weight:100; text-align:center; padding-top:50px;}
+#Previous .one h2{ font-size:28px; color:#e60002; height:59px; line-height:59px; text-align:center; font-weight:100;}
+#Previous .one img{ margin:0 auto;margin-top:5px;margin-bottom:16px;}
+#Previous .one p{font-size:12px; height:22px; line-height:22px; text-align:center; }
+
+#Previous .two{height:305px; }
+#Previous .two ul{height:270px;padding:0 156px; margin-left:80px;}
+#Previous .two ul li{height:280px; float:left;margin-right:60px;margin-top:10px; }
+#Previous .two ul li span{display:block; height:200px;width:142px;  transition:all .5s;}
+#Previous .two ul li:nth-child(1) span{ background:url(../images/20160818204917_80717.png) no-repeat -142px,url(../images/20160818204902_46414.png) no-repeat 0}
+#Previous .two ul li:nth-child(2) span{background:url(../images/20160818205259_15898.png) no-repeat -142px,url(../images/20160818205246_25471.png) no-repeat 0}
+#Previous .two ul li:nth-child(3) span{background:url(../images/20160818205339_75592.png) no-repeat -142px,url(../images/20160818205329_25470.png) no-repeat 0 }
+#Previous .two ul li:nth-child(4) span{background:url(../images/20160818205411_74101.png) no-repeat -142px,url(../images/20160818205400_95921.png) no-repeat 0}
+#Previous .two ul li:hover span{ background-position:0,0;}
+#Previous .two ul li p{ font-size:17px;}
+
+#Previous #case{width:100%; background:#e4e4e4;display:flex;flex-wrap:wrap;}
+#Previous #case div{width:100%;height:230px;}
+#Previous #case div h1{ font-size:32px;  font-weight:100; text-align:center; }
+#Previous #case div h2{ font-size:28px; color:#e60002;text-align:center; font-weight:100;padding-top:50px;}
+#Previous #case dl{background:#fff; margin-right:28px;width:392px;height:405px;margin:28px auto;}
+#Previous #case dt{  height:320px;position:relative; overflow:hidden;}
+#Previous #case dt img{width:392px; height:320px; transition:all .5s;}
+#Previous #case dt::after{ content:"";position:absolute;width:392px; height:320px; background:url(images/j_img.png) no-repeat center rgba(0,0,0,.6);top:0; left:0; display:none;}
+#Previous #case dt:hover img{ transform:scale(2)}
+#Previous #case dl:hover dt::after {display:block;}
+#Previous #case dl:hover dd h3{color:#F00;}
+#Previous #case dd{ height:87px;margin-left:20px;margin-top:19px;}
+#Previous #case dd h2{ font-size:17px;}
+#Previous #case dd p{margin-top:15px;}
+
+#Previous .aa{height:300px; width:100%; background:#ce0000; margin-top:32px;}
+#Previous .aa h1{font-size:32px; padding-top:30px; color:#FFF;}
+#Previous .aa img{margin:20px auto;}
+#Previous .aa p{ display:block;width:141px; height:47px; line-height:47px; border:2px solid #fff; text-align:center; vertical-align:middle; color:#fff;}
+ */

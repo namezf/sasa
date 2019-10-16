@@ -1,0 +1,76 @@
+.nav{
+    margin-top:30px;
+    height: 98px;
+    .content{
+        height: 98px;
+        width:800px;
+        line-height: 98px;
+    }
+    .logo {
+        position: relative;
+        height: 45px;
+        margin-top:30px;
+            .slogan {
+                margin-left:30px;
+                height: 45px;
+                line-height: 25px;
+                position: absolute;
+                top:-30px;
+                left:180px;
+                margin-top:32px;
+                a{
+                    font-size:18px;
+                    color: #ec3e7d;
+                    text-decoration: none;
+                }
+                #sale a{
+                    font-size: 13px;
+                    color: #666;
+                    padding-right:10px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .register{
+        height: 300px;
+        margin-top:50px;
+        h3{
+            font-size:20px;
+            text-align: center;
+        }
+        .formBox {
+            height: 100px;
+            margin-left:530px;
+            margin-top:20px;
+            .button{
+                cursor: pointer;
+                width: 150px;
+                height: 30px;
+                margin: 10px 0 0;
+                
+            }
+            
+            input{
+                width:300px;
+                height: 40px;
+                border:0;
+                border-bottom: 1px solid #ccc;
+                a{
+                    font-size:15px;
+                }
+                
+            }
+        }
+        .submit{
+            height: 50px;
+            margin-left:750px;
+            a{
+                text-decoration: none;
+            }
+            .login {
+                color:#ec3e7d;
+
+            }
+        }
+    }

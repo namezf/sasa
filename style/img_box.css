@@ -1,0 +1,17 @@
+table {
+  position: relative;
+  top: 400px;
+  padding: 40px 20px;
+}
+
+td {
+  width: 74px;
+  height: 70px;
+  border: 1px solid #ccc;
+}
+
+.focus {
+  background: #ed008c;
+  cursor: pointer;
+}
+/*# sourceMappingURL=img_box.css.map */
